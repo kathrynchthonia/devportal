@@ -87,7 +87,8 @@ class CreateProfile extends Component {
         twitter: profile.twitter,
         facebook: profile.facebook,
         linkedin: profile.linkedin,
-        youtube: profile.youtube
+        youtube: profile.youtube,
+        instagram: profile.instagram
       });
     }
   }
@@ -158,11 +159,11 @@ class CreateProfile extends Component {
           />
           <InputGroup
             placeholder="Instagram Profile URL"
-            name="twitter"
-            icon="fab fa-twitter"
-            value={this.state.twitter}
+            name="instagram"
+            icon="fab fa-instagram"
+            value={this.state.instagram}
             onChange={this.onChange}
-            error={errors.twitter}
+            error={errors.instagram}
           />
         </div>
       );

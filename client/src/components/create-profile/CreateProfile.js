@@ -116,7 +116,7 @@ class CreateProfile extends Component {
 
     // Select options for status
     const options = [
-      { label: "Select Professional Status", value: 0 },
+      { label: "* Select Professional Status", value: 0 },
       { label: "Developer", value: "Developer" },
       { label: "Front-End Developer", value: "Front-End Developer" },
       { label: "Back-End Developer", value: "Back-End Developer" },
@@ -183,7 +183,7 @@ class CreateProfile extends Component {
                   info="City or city & state suggested (eg. Little Rock, AR)"
                 />
                 <TextFieldGroup
-                  placeholder="Skills"
+                  placeholder="* Skills"
                   name="skills"
                   value={this.state.skills}
                   onChange={this.onChange}
